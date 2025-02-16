@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class LeetCodeSolutionTest {
 
     @Test
-    public void removeAllOccurrencesOfASubstringTest() {
+    public void removeOccurrencesTest() {
 
         assertEquals("dab", LeetCodeSolution.removeOccurrences("daabcbaabcbc", "abc"));
         assertEquals("ab", LeetCodeSolution.removeOccurrences("axxxxyyyyb", "xy"));
